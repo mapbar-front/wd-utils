@@ -1,6 +1,6 @@
 {
-  "name": "wd-utils",
-  "version": "1.0.0",
+  "name": "wd-tools-utils",
+  "version": "1.0.1",
   "description": "一个工具库",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,8 @@
   },
   "homepage": "https://github.com/mapbar-front/wd-utils#readme",
   "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
     "eslint": "^7.6.0",
@@ -39,7 +41,13 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-uglify": "^3.0.2",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
   }
 }
